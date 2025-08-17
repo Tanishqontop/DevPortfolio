@@ -42,7 +42,7 @@ Fun AI-powered dating assistant app that **generates pickup lines, revamps bios,
 
 ## 🌐 Connect with Me
 - LinkedIn: [Tanishq Pratap](https://www.linkedin.com/in/tanishqpratap/)  
-- Twitter: [@TanishqOnTop](https://x.com/tanishqicreate)  - Portfolio: [tanishq.dev](https://tanishq.dev)  
+- Twitter: [@TanishqOnTop](https://x.com/tanishqicreate)  
 - Email: tanishqontop@gmail.com 
 
 ---
