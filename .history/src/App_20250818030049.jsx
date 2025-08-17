@@ -77,7 +77,7 @@ function App() {
                 <br />
                 I'm a <span className="highlight">Multidisciplinary Digital Developer</span>
                 <br />
-                based out of Bengaluru, India.
+                based in Bengaluru, India.
               </h1>
               <button className="cta-button">Get in touch</button>
             </div>
