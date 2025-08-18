@@ -38,7 +38,7 @@ function App() {
         <header className="header">
           <div className="header-content">
             <div className="header-left">
-              <span className="copyright">© Portfolio of Tanishq</span>
+              <span className="copyright">© Thing by Tanishq</span>
             </div>
             <div className="header-right">
               <div className="header-column">

@@ -38,7 +38,7 @@ function App() {
         <header className="header">
           <div className="header-content">
             <div className="header-left">
-              <span className="copyright">© Portfolio of Tanishq</span>
+              <span className="copyright">© Thing by Tanishq</span>
             </div>
             <div className="header-right">
               <div className="header-column">
@@ -48,8 +48,10 @@ function App() {
               <div className="header-column">
                 <h4>Say hi</h4>
                 <ul>
-                  <li><a href="https://www.linkedin.com/in/tanishqpratap/">LinkedIn</a></li>
-                  <li><a href="mailto:tanishqontop@gmail.com">Email</a></li>
+                  <li><a href="#">Instagram</a></li>
+                  <li><a href="#">Awwwards</a></li>
+                  <li><a href="#">Email</a></li>
+                  <li><a href="#">X</a></li>
                 </ul>
               </div>
               <div className="header-column">
