@@ -49,7 +49,7 @@ function App() {
                 <h4>Say hi</h4>
                 <ul>
                   <li><a href="https://www.linkedin.com/in/tanishqpratap/">LinkedIn</a></li>
-                  <li><a href="https://github.com/Tanishqontop">GitHub</a></li>
+                  <li><a href="https://www.linkedin.com/in/tanishqpratap/">GitHub</a></li>
                   <li><a href="mailto:tanishqontop@gmail.com">Email</a></li>
                 </ul>
               </div>
