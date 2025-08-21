@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import Preloader from "../Preloader";
-
-// ✅ Correct import syntax
 import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
@@ -23,41 +21,36 @@ export default function Projects() {
     setIsLoaded(true);
   };
 
-  // ✅ Use imported variables instead of string paths
   const projects = [
     {
-      src: project1,
+      src: "src/assets/project1.png",
       alt: "CreatorHub",
       title: "CreatorHub",
-      description:
-        "A platform for content creators to showcase their work and connect with their audience.",
+      description: "A platform for content creators to showcase their work and connect with their audience.",
       url: "https://github.com/Tanishqontop/creatorhub",
       tags: ["React", "Node.js", "Supabase", "RazorPay"],
     },
     {
-      src: project2,
+      src: "src/assets/project2.png",
       alt: "Martially",
       title: "Martially",
-      description:
-        "A Platform for connecting Martial Arts enthusiasts with trainers and classes.",
+      description: "A Platform for connecting Martial Arts enthusiasts with trainers and classes.",
       url: "https://github.com/Tanishqontop/martially-a1b2e191",
       tags: ["React", "RazorPay", "Supabase"],
     },
     {
-      src: project3,
+      src: "src/assets/project3.png",
       alt: "RizzexAI",
       title: "RizzexAI",
-      description:
-        "RizzexAI is Your AI-powered Flirty Wingman. Made with Flutter and Supabase.",
+      description: "RizzexAI is Your AI-powered Flirty Wingman. Made with Flutter and Supabase.",
       url: "https://github.com/Tanishqontop/RizzexAI",
       tags: ["Flutter", "Supabase", "PostgreSQL"],
     },
     {
-      src: project4,
+      src: "src/assets/project4.png",
       alt: "Habitat",
       title: "Habitat",
-      description:
-        "Habitat is a modern, luxury real estate site designed to showcase exclusive Properties.",
+      description: "Habitat is a modern, luxury real estate site designed to showcase exclusive Properties.",
       url: "https://github.com/Tanishqontop/RealEstateWebsite",
       tags: ["TypeScript", "D3.js", "Express"],
     },
@@ -69,10 +62,7 @@ export default function Projects() {
       <div className={`app ${isLoaded ? "loaded" : ""}`}>
         {/* Header Section */}
         <div className="px-6 py-8 md:px-12 md:py-16">
-          <h1
-            style={{ marginTop: 90 }}
-            className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4"
-          >
+          <h1 style = {{ marginTop: 90 }} className="text-4xl md:text-5xl lg:text-7xl font-bold mb-4">
             Projects
           </h1>
         </div>
@@ -81,8 +71,8 @@ export default function Projects() {
         <div className="px-6 pb-16 md:px-12">
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {projects.map((project, index) => (
-              <MinimalCard
-                key={index}
+              <MinimalCard 
+                key={index} 
                 className="h-full flex flex-col transition-all duration-300 hover:shadow-lg"
                 url={project.url}
               >
@@ -94,11 +84,11 @@ export default function Projects() {
                   <MinimalCardDescription className="text-gray-600 dark:text-gray-300 mb-4">
                     {project.description}
                   </MinimalCardDescription>
-
+                  
                   {/* Tags */}
                   <div className="flex flex-wrap gap-2 mt-auto">
                     {project.tags.map((tag, i) => (
-                      <span
+                      <span 
                         key={i}
                         className="px-2 py-1 text-xs font-medium bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200 rounded-full"
                       >
@@ -115,7 +105,7 @@ export default function Projects() {
               </MinimalCard>
             ))}
           </div>
-        </div>
+        </div>     
       </div>
     </>
   );
