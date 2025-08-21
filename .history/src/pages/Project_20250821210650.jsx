@@ -39,7 +39,7 @@ export default function Projects() {
       alt: "RizzexAI",
       title: "RizzexAI",
       description: "RizzexAI is Your AI-powered Flirty Wingman. Made with Flutter and Supabase.",
-      url: "https://github.com/Tanishqontop/RizzexAI",
+      url: "https://healthtrack.example.com",
       tags: ["Flutter", "Supabase", "PostgreSQL"],
     },
     {

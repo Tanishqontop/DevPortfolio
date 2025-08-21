@@ -31,7 +31,7 @@ export default function Projects() {
       alt: "Martially",
       title: "Martially",
       description: "A Platform for connecting Martial Arts enthusiasts with trainers and classes.",
-      url: "https://github.com/Tanishqontop/martially-a1b2e191",
+      url: "https://ecomarket.example.com",
       tags: ["React", "RazorPay", "Supabase"],
     },
     {
@@ -39,15 +39,15 @@ export default function Projects() {
       alt: "RizzexAI",
       title: "RizzexAI",
       description: "RizzexAI is Your AI-powered Flirty Wingman. Made with Flutter and Supabase.",
-      url: "https://github.com/Tanishqontop/RizzexAI",
+      url: "https://healthtrack.example.com",
       tags: ["Flutter", "Supabase", "PostgreSQL"],
     },
     {
       src: "/project4.png",
       alt: "Habitat",
-      title: "Habitat",
-      description: "Habitat is a modern, luxury real estate site designed to showcase exclusive Properties.",
-      url: "https://github.com/Tanishqontop/RealEstateWebsite",
+      title: "Finance Dashboard",
+      description: "Interactive dashboard for personal finance management and investment tracking.",
+      url: "https://finance.example.com",
       tags: ["TypeScript", "D3.js", "Express"],
     },
   ];
