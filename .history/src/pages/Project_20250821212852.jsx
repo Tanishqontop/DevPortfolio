@@ -42,7 +42,7 @@ export default function Projects() {
       tags: ["Flutter", "Supabase", "PostgreSQL"],
     },
     {
-      src: "src/assets/project4.png",
+      src: "/project4.png",
       alt: "Habitat",
       title: "Habitat",
       description: "Habitat is a modern, luxury real estate site designed to showcase exclusive Properties.",

@@ -26,7 +26,7 @@ export default function Projects() {
       tags: ["React", "Node.js", "Supabase", "RazorPay"],
     },
     {
-      src: "src/assets/project2.png",
+      src: "src/assets/project1.png",
       alt: "Martially",
       title: "Martially",
       description: "A Platform for connecting Martial Arts enthusiasts with trainers and classes.",
@@ -34,7 +34,7 @@ export default function Projects() {
       tags: ["React", "RazorPay", "Supabase"],
     },
     {
-      src: "src/assets/project3.png",
+      src: "/project3.png",
       alt: "RizzexAI",
       title: "RizzexAI",
       description: "RizzexAI is Your AI-powered Flirty Wingman. Made with Flutter and Supabase.",
@@ -42,7 +42,7 @@ export default function Projects() {
       tags: ["Flutter", "Supabase", "PostgreSQL"],
     },
     {
-      src: "src/assets/project4.png",
+      src: "/project4.png",
       alt: "Habitat",
       title: "Habitat",
       description: "Habitat is a modern, luxury real estate site designed to showcase exclusive Properties.",
