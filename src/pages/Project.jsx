@@ -23,7 +23,7 @@ export default function Projects() {
     setIsLoaded(true);
   };
 
-  // ✅ Use imported variables instead of string paths
+  // Use imported variables instead of string paths
   const projects = [
     {
       src: project1,
