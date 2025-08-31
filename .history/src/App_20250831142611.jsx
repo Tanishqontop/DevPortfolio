@@ -106,7 +106,7 @@ function App() {
         <footer className="footer">
           <div className="footer-bar">
             <div className="time">{currentTime}</div>
-            <div className="scripture">DAILY SCRIPTURE: "Do your duty without attachment." [Bhagavad Gita]</div>
+<div className="scripture">DAILY SCRIPTURE: "Do your duty without attachment." [Bhagavad Gita]</div>
           </div>
           <div className="footer-text">CREATIVE DEVELOPER</div>
         </footer>
