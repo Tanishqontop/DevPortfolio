@@ -6,7 +6,6 @@ import project1 from "../assets/project1.png";
 import project2 from "../assets/project2.png";
 import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
-import project5 from "../assets/project5.png";
 
 import {
   MinimalCard,
@@ -68,8 +67,8 @@ export default function Projects() {
       title: "Agency Website",
       description:
         "A sleek and modern website for a digital agency, showcasing services and portfolio.",
-      url: "https://agencywebsite-xs4q.onrender.com/",
-      tags: ["TypeScript", "GSAP", "React", "ScrollTrigger"],
+      url: "https://github.com/Tanishqontop/RealEstateWebsite",
+      tags: ["TypeScript", "D3.js", "Express"],
     },
   ];
 
