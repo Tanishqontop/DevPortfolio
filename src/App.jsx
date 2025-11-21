@@ -4,6 +4,8 @@ import { Routes, Route, Link } from 'react-router-dom';
 import Contact from './pages/Contact';
 import Project from './pages/Project';
 import Preloader from './Preloader';
+import TestimonialSlider from './components/TestimonialSlider';
+
 import './App.css';
 
 function App() {
@@ -11,7 +13,6 @@ function App() {
   const [currentTime, setCurrentTime] = useState("");
   const handleLoadingComplete = () => setIsLoaded(true);
 
-  // Live time updater
   useEffect(() => {
     const updateTime = () => {
       const now = new Date();
@@ -29,41 +30,48 @@ function App() {
     return () => clearInterval(interval);
   }, []);
 
-  //  Create a separate Home page inside App for simplicity
   const Home = () => (
-    <main className="hero">
-      <div className="hero-content">
-        <div className="hero-text">
-          <h1>
-            Hello, my name is Tanishq.
-            <br />
-            I'm a <span className="highlight">Multidisciplinary Digital Developer</span>
-            <br />
-            based out of Bengaluru, India.
-          </h1>
-          <button className="cta-button">Get in touch</button>
+    <>
+      <main className="hero">
+        <div className="hero-content">
+          <div className="hero-text">
+            <h1>
+              Hello, my name is Tanishq.
+              <br />
+              I'm a <span className="highlight">Multidisciplinary Digital Developer</span>
+              <br />
+              based out of Bengaluru, India.
+            </h1>
+            <button className="cta-button">Get in touch</button>
+          </div>
+
+          <div className="hero-illustration">
+            <DotLottieReact
+              src="https://lottie.host/b2fc6390-4d1e-49db-9cca-07503f10b86b/FJzANdeyKz.lottie"
+              loop
+              autoplay
+              style={{ width: '400px', height: '400px' }}
+              onError={(error) => {
+                console.error('Lottie animation failed to load:', error);
+              }}
+            />
+          </div>
         </div>
-        <div className="hero-illustration">
-          <DotLottieReact
-            src="https://lottie.host/b2fc6390-4d1e-49db-9cca-07503f10b86b/FJzANdeyKz.lottie"
-            loop
-            autoplay
-            style={{ width: '400px', height: '400px' }}
-            onError={(error) => {
-              console.error('Lottie animation failed to load:', error);
-            }}
-          />
+      </main>
+
+      {/* Testimonials below hero */}
+      <section className="w-full bg-gray-50">
+        <div className="max-w-16xl mx-auto min-h-screen gap-5 flex flex-col items-center justify-center">
+          <TestimonialSlider />
         </div>
-      </div>
-    </main>
+      </section>
+    </>
   );
 
   return (
     <>
       {!isLoaded && <Preloader onLoadingComplete={handleLoadingComplete} />}
       <div className={`app ${isLoaded ? 'loaded' : ''}`}>
-
-        {/* Header (always visible) */}
         <header className="header">
           <div className="header-content">
             <div className="header-left">
@@ -94,18 +102,18 @@ function App() {
           </div>
         </header>
 
-        {/* Page Switcher */}
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
 
-        {/* Footer (always visible) */}
         <footer className="footer">
           <div className="footer-bar">
             <div className="time">{currentTime}</div>
-            <div className="scripture">DAILY SCRIPTURE: "Do your duty without attachment." [Bhagavad Gita]</div>
+            <div className="scripture">
+              DAILY SCRIPTURE: "Do your duty without attachment." [Bhagavad Gita]
+            </div>
           </div>
           <div className="footer-text">CREATIVE DEVELOPER</div>
         </footer>
