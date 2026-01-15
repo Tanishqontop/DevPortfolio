@@ -32,7 +32,7 @@ export default function Projects() {
       title: "CreatorHub",
       description:
         "A platform for content creators to showcase their work and connect with their audience.",
-      url: "https://github.com/Tanishqontop/creatorhub",
+      url: "http://creatorhubnetwork.com/",
       tags: ["React", "Node.js", "Supabase", "RazorPay"],
     },
     {
@@ -41,7 +41,7 @@ export default function Projects() {
       title: "Martially",
       description:
         "A Platform for connecting Martial Arts enthusiasts with trainers and classes.",
-      url: "https://github.com/Tanishqontop/martially-a1b2e191",
+      url: "https://martially.netlify.app/",
       tags: ["React", "RazorPay", "Supabase"],
     },
     {
