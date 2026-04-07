@@ -64,6 +64,15 @@ export default function Projects() {
     },
     {
       src: project5,
+      alt: "Gaming Website",
+      title: "Gaming Website",
+      description:
+        "A sleek and modern website for a digital gaming platform, showcasing games.",
+      url: "https://robust-gaming.vercel.app/",
+      tags: ["TypeScript", "GSAP", "React", "ScrollTrigger"],
+    },
+    {
+      src: project6,
       alt: "Creative Agency Website",
       title: "Agency Website",
       description:
