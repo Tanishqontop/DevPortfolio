@@ -79,7 +79,7 @@ export default function Projects() {
         "A sleek and modern website for a digital agency, showcasing services and portfolio.",
       url: "https://agencywebsite-xs4q.onrender.com/",
       tags: ["TypeScript", "GSAP", "React", "ScrollTrigger"],
-    },
+    }
   ];
 
   return (
