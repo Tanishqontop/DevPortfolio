@@ -8,7 +8,7 @@ import project3 from "../assets/project3.png";
 import project4 from "../assets/project4.png";
 import project5 from "../assets/project5.png";
 import project6 from "../assets/project6.png";
-import project7 from "../assets/project6.png";
+import project7 from "../assets/project7.png";
 
 import {
   MinimalCard,
@@ -81,6 +81,15 @@ export default function Projects() {
         "A sleek and modern website for a digital agency, showcasing services and portfolio.",
       url: "https://agencywebsite-xs4q.onrender.com/",
       tags: ["TypeScript", "GSAP", "React", "ScrollTrigger"],
+    },
+    {
+      src: project7,
+      alt: "RateYourPg",
+      title: "PG RATING PLATFORM",
+      description:
+        "India's first community-driven PG review platform. Helping students and professionals find safe, honest stays.",
+      url: "https://rateyourpg.vercel.app/",
+      tags: ["TypeScript", "GSAP", "React", "ScrollTrigger", "Supabase", "Postgres"],
     }
   ];
 
